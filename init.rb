@@ -10,14 +10,24 @@ end
 
 folder_path = __dir__
 
+# Input
 repo_name = prompt('GitHub repository name')
 bundle_domain = prompt('Client bundle domain')
 project_name = prompt('Project name')
 urn_scheme = project_name.downcase.delete(' ')
 
+# Configs
 file_names = Dir["#{folder_path}/**/*.*"]
 file_names.push(".swiftlint.yml")
 file_names.push(".travis.yml")
+file_names.push("Podfile")
+
+# Fatlane
+file_names.push("fastlane/Appfile")
+file_names.push("fastlane/Deliverfile")
+file_names.push("fastlane/Fastfile")
+
+# Project
 file_names.push("SwiftProject.xcodeproj/project.pbxproj")
 file_names.push("SwiftProject.xcodeproj/project.xcworkspace/contents.xcworkspacedata")
 file_names.push("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Staging.xcscheme")
@@ -25,8 +35,10 @@ file_names.push("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Pre-
 file_names.push("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Production.xcscheme")
 file_names.push("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Tests.xcscheme")
 
+# Search and replace
 file_names.each do |file_name|
-  ignored_file_types = ['.xccheckout',
+  ignored_file_types = [
+    '.xccheckout',
     '.xcodeproj',
     '.xcworkspace',
     '.xcuserdatad',
@@ -37,7 +49,8 @@ file_names.each do |file_name|
     '.lproj',
     '.rb',
     '.framework',
-    '.playground']
+    '.playground'
+  ]
 
   if !ignored_file_types.include?(File.extname(file_name))
     text = File.read(file_name)
@@ -52,6 +65,7 @@ file_names.each do |file_name|
   end
 end
 
+# Rename files
 FileUtils.rm('README.md')
 File.rename('SwiftProject-README.md', 'README.md')
 File.rename("SwiftProject", "#{project_name}")
@@ -74,6 +88,7 @@ File.rename("SwiftProject.xcodeproj", "#{project_name}.xcodeproj")
 FileUtils.rm_rf ".git"
 FileUtils.rm('init.rb')
 
+# Setup project
 system("pod install")
 system("git init && git add . && git commit -am 'Initial commit'")
 system("git remote add origin https://github.com/hyperoslo/#{repo_name}.git")
