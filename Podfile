@@ -19,7 +19,7 @@ pod 'R.swift'
 pod 'ReachabilitySwift'
 pod 'Spots'
 pod 'Sugar'
-pod 'Tabby'
+pod 'Tabby', git: 'https://github.com/hyperoslo/Tabby'
 pod 'Tailor'
 
 target 'SwiftProject Staging'
