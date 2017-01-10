@@ -10,11 +10,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var mainController: MainController?
 
   var configurators: [Configurable] = [
-    FashionConfigurator(),
+    AftermathConfigurator(),
     CompassConfigurator(),
-    SpotsConfigurator(),
+    FashionConfigurator(),
     MalibuConfigurator(),
-    AftermathConfigurator()
+    SpotsConfigurator(),
+    TabbyConfigurator()
   ]
 
   // MARK: - Initialization
@@ -25,7 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   // MARK: - App lifecycle
 
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     if !Simulator.isRunning && !UnitTesting.isRunning {
       Fabric.with([Crashlytics.self])
     }

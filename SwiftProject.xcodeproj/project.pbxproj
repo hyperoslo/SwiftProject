@@ -10,19 +10,13 @@
 		D570917D1E23B69300C9347B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57091761E23B69300C9347B /* Assets.xcassets */; };
 		D570917F1E23B69300C9347B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57091791E23B69300C9347B /* LaunchScreen.storyboard */; };
 		D57091801E23B69300C9347B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570917B1E23B69300C9347B /* AppDelegate.swift */; };
-		D57091811E23B69300C9347B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570917C1E23B69300C9347B /* MainController.swift */; };
-		D57091871E23B90800C9347B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570917C1E23B69300C9347B /* MainController.swift */; };
 		D57091881E23B90800C9347B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570917B1E23B69300C9347B /* AppDelegate.swift */; };
 		D570918B1E23B90800C9347B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57091791E23B69300C9347B /* LaunchScreen.storyboard */; };
 		D570918C1E23B90800C9347B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57091761E23B69300C9347B /* Assets.xcassets */; };
-		D57091971E23B91200C9347B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570917C1E23B69300C9347B /* MainController.swift */; };
 		D57091981E23B91200C9347B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570917B1E23B69300C9347B /* AppDelegate.swift */; };
 		D570919B1E23B91200C9347B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57091791E23B69300C9347B /* LaunchScreen.storyboard */; };
 		D570919C1E23B91200C9347B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57091761E23B69300C9347B /* Assets.xcassets */; };
 		D5892C7A1E2516AB00FFCF74 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C771E25169D00FFCF74 /* Tests.swift */; };
-		D5892C7D1E251D5600FFCF74 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C7C1E251D5600FFCF74 /* App.swift */; };
-		D5892C7E1E251D5600FFCF74 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C7C1E251D5600FFCF74 /* App.swift */; };
-		D5892C7F1E251D5600FFCF74 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C7C1E251D5600FFCF74 /* App.swift */; };
 		D5892C811E251D9000FFCF74 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C801E251D9000FFCF74 /* Configurable.swift */; };
 		D5892C821E251D9000FFCF74 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C801E251D9000FFCF74 /* Configurable.swift */; };
 		D5892C831E251D9000FFCF74 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C801E251D9000FFCF74 /* Configurable.swift */; };
@@ -62,6 +56,12 @@
 		D5B18E921E2568C80027E792 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E911E2568C80027E792 /* R.generated.swift */; };
 		D5B18E931E2568C80027E792 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E911E2568C80027E792 /* R.generated.swift */; };
 		D5B18E941E2568C80027E792 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E911E2568C80027E792 /* R.generated.swift */; };
+		D5B18E971E2570000027E792 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E961E2570000027E792 /* App.swift */; };
+		D5B18E981E2570000027E792 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E961E2570000027E792 /* App.swift */; };
+		D5B18E991E2570000027E792 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E961E2570000027E792 /* App.swift */; };
+		D5B18E9C1E2570440027E792 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E9B1E2570440027E792 /* MainController.swift */; };
+		D5B18E9D1E2570440027E792 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E9B1E2570440027E792 /* MainController.swift */; };
+		D5B18E9E1E2570440027E792 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E9B1E2570440027E792 /* MainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +79,6 @@
 		D57091781E23B69300C9347B /* Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Staging.plist"; sourceTree = "<group>"; };
 		D57091791E23B69300C9347B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D570917B1E23B69300C9347B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D570917C1E23B69300C9347B /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		D57091931E23B90800C9347B /* SwiftProject Pre-Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProject Pre-Production.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57091A31E23B91200C9347B /* SwiftProject Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProject Production.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57091A91E23BA0200C9347B /* SwiftProject Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftProject Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +86,6 @@
 		D57091B41E23BA7D00C9347B /* Info-Production.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Production.plist"; sourceTree = "<group>"; };
 		D5892C751E25169D00FFCF74 /* Info-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests.plist"; sourceTree = "<group>"; };
 		D5892C771E25169D00FFCF74 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		D5892C7C1E251D5600FFCF74 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		D5892C801E251D9000FFCF74 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
 		D5892C841E251DBC00FFCF74 /* FashionConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FashionConfigurator.swift; sourceTree = "<group>"; };
 		D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MalibuConfigurator.swift; sourceTree = "<group>"; };
@@ -101,6 +99,8 @@
 		D5892CAB1E252B3000FFCF74 /* AftermathConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AftermathConfigurator.swift; sourceTree = "<group>"; };
 		D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringConvertible+Extensions.swift"; sourceTree = "<group>"; };
 		D5B18E911E2568C80027E792 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		D5B18E961E2570000027E792 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		D5B18E9B1E2570440027E792 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		D5C7F7401C3BC9CE008CDDBA /* SwiftProject Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProject Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -160,12 +160,13 @@
 		D570917A1E23B69300C9347B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D5B18E951E256FF00027E792 /* Features */,
 				D5892C9E1E25282400FFCF74 /* Extensions */,
 				D5892C991E25261200FFCF74 /* Stylesheets */,
 				D5892C941E25215A00FFCF74 /* Constants */,
 				D5892C7B1E251D3F00FFCF74 /* Config */,
 				D570917B1E23B69300C9347B /* AppDelegate.swift */,
-				D570917C1E23B69300C9347B /* MainController.swift */,
+				D5B18E961E2570000027E792 /* App.swift */,
 			);
 			name = Sources;
 			path = SwiftProject/Sources;
@@ -207,14 +208,13 @@
 		D5892C7B1E251D3F00FFCF74 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				D5892C7C1E251D5600FFCF74 /* App.swift */,
 				D5892C801E251D9000FFCF74 /* Configurable.swift */,
+				D5892CAB1E252B3000FFCF74 /* AftermathConfigurator.swift */,
+				D5892C8C1E251DFE00FFCF74 /* CompassConfigurator.swift */,
 				D5892C841E251DBC00FFCF74 /* FashionConfigurator.swift */,
 				D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */,
-				D5892C8C1E251DFE00FFCF74 /* CompassConfigurator.swift */,
 				D5892C901E251E0900FFCF74 /* SpotsConfigurator.swift */,
 				D5892CA71E25299200FFCF74 /* TabbyConfigurator.swift */,
-				D5892CAB1E252B3000FFCF74 /* AftermathConfigurator.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -231,8 +231,8 @@
 		D5892C991E25261200FFCF74 /* Stylesheets */ = {
 			isa = PBXGroup;
 			children = (
-				D5892C9A1E25262600FFCF74 /* SystemStylesheet.swift */,
 				D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */,
+				D5892C9A1E25262600FFCF74 /* SystemStylesheet.swift */,
 			);
 			path = Stylesheets;
 			sourceTree = "<group>";
@@ -244,6 +244,22 @@
 				D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D5B18E951E256FF00027E792 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D5B18E9A1E25703B0027E792 /* Main */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D5B18E9A1E25703B0027E792 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D5B18E9B1E2570440027E792 /* MainController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		D5C7F7371C3BC9CE008CDDBA = {
@@ -583,8 +599,8 @@
 				D5892C8A1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
 				D5B18E8D1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D5892C971E25217400FFCF74 /* Identifiers.swift in Sources */,
-				D5892C7E1E251D5600FFCF74 /* App.swift in Sources */,
-				D57091871E23B90800C9347B /* MainController.swift in Sources */,
+				D5B18E9D1E2570440027E792 /* MainController.swift in Sources */,
+				D5B18E981E2570000027E792 /* App.swift in Sources */,
 				D5892C8E1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */,
 				D5892C821E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E931E2568C80027E792 /* R.generated.swift in Sources */,
@@ -606,8 +622,8 @@
 				D5892C8B1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
 				D5B18E8E1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D5892C981E25217400FFCF74 /* Identifiers.swift in Sources */,
-				D5892C7F1E251D5600FFCF74 /* App.swift in Sources */,
-				D57091971E23B91200C9347B /* MainController.swift in Sources */,
+				D5B18E9E1E2570440027E792 /* MainController.swift in Sources */,
+				D5B18E991E2570000027E792 /* App.swift in Sources */,
 				D5892C8F1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */,
 				D5892C831E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E941E2568C80027E792 /* R.generated.swift in Sources */,
@@ -637,8 +653,8 @@
 				D5892C891E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
 				D5B18E8C1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D5892C961E25217400FFCF74 /* Identifiers.swift in Sources */,
-				D5892C7D1E251D5600FFCF74 /* App.swift in Sources */,
-				D57091811E23B69300C9347B /* MainController.swift in Sources */,
+				D5B18E9C1E2570440027E792 /* MainController.swift in Sources */,
+				D5B18E971E2570000027E792 /* App.swift in Sources */,
 				D5892C8D1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */,
 				D5892C811E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E921E2568C80027E792 /* R.generated.swift in Sources */,
