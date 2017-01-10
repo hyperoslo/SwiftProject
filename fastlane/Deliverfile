@@ -1,0 +1,24 @@
+app_identifier "BundleIdentifier.SwiftProject"
+username ""
+submit_for_review false
+automatic_release false
+force true
+
+app_review_information(
+  first_name: "Christoffer",
+  last_name: "Winterkvist",
+  phone_number: "+47 413 998 80",
+  email_address: "christoffer@hyper.no",
+  demo_user: "",
+  demo_password: "",
+  notes: ""
+)
+
+submission_information({
+  content_rights_contains_third_party_content: false,
+  export_compliance_uses_encryption: false,
+  export_compliance_encryption_updated: false
+})
+
+app_rating_config_path './fastlane/metadata/rating_config.json'
+app_icon './fastlane/icons/AppIcon.png'
