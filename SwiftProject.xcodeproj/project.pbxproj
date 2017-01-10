@@ -56,6 +56,9 @@
 		D5892CAC1E252B3000FFCF74 /* AftermathConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CAB1E252B3000FFCF74 /* AftermathConfigurator.swift */; };
 		D5892CAD1E252B3000FFCF74 /* AftermathConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CAB1E252B3000FFCF74 /* AftermathConfigurator.swift */; };
 		D5892CAE1E252B3000FFCF74 /* AftermathConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CAB1E252B3000FFCF74 /* AftermathConfigurator.swift */; };
+		D5B18E8C1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
+		D5B18E8D1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
+		D5B18E8E1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +96,7 @@
 		D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainStylesheet.swift; sourceTree = "<group>"; };
 		D5892CA71E25299200FFCF74 /* TabbyConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbyConfigurator.swift; sourceTree = "<group>"; };
 		D5892CAB1E252B3000FFCF74 /* AftermathConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AftermathConfigurator.swift; sourceTree = "<group>"; };
+		D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringConvertible+Extensions.swift"; sourceTree = "<group>"; };
 		D5C7F7401C3BC9CE008CDDBA /* SwiftProject Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProject Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -232,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				D5892C9F1E25283400FFCF74 /* String+Extensions.swift */,
+				D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -459,7 +464,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Generated\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Constants\"";
 		};
 		D57091841E23B8E000C9347B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -501,7 +506,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Generated\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Constants\"";
 		};
 		D570918F1E23B90800C9347B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -543,7 +548,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Generated\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Constants\"";
 		};
 		D570919F1E23B91200C9347B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -571,6 +576,7 @@
 				D5892CA51E2528E300FFCF74 /* MainStylesheet.swift in Sources */,
 				D5892CAD1E252B3000FFCF74 /* AftermathConfigurator.swift in Sources */,
 				D5892C8A1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
+				D5B18E8D1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D5892C971E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5892C7E1E251D5600FFCF74 /* App.swift in Sources */,
 				D57091871E23B90800C9347B /* MainController.swift in Sources */,
@@ -592,6 +598,7 @@
 				D5892CA61E2528E300FFCF74 /* MainStylesheet.swift in Sources */,
 				D5892CAE1E252B3000FFCF74 /* AftermathConfigurator.swift in Sources */,
 				D5892C8B1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
+				D5B18E8E1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D5892C981E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5892C7F1E251D5600FFCF74 /* App.swift in Sources */,
 				D57091971E23B91200C9347B /* MainController.swift in Sources */,
@@ -621,6 +628,7 @@
 				D5892CA41E2528E300FFCF74 /* MainStylesheet.swift in Sources */,
 				D5892CAC1E252B3000FFCF74 /* AftermathConfigurator.swift in Sources */,
 				D5892C891E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
+				D5B18E8C1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D5892C961E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5892C7D1E251D5600FFCF74 /* App.swift in Sources */,
 				D57091811E23B69300C9347B /* MainController.swift in Sources */,
