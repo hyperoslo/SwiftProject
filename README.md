@@ -13,12 +13,13 @@ recommended dependencies.
 
 ## Usage
 
+1. Create new private repository on [GitHub](https://github.com/organizations/hyperoslo/repositories/new)
 1. `git clone https://github.com/hyperoslo/SwiftProject.git NewProjectName`
 2. `cd NewProjectName`
 3. `swift ./init.rb`
 4. Enter the requested info.
-
-"NewProjectName" here is the name of your Swift project.
+5. Go to http://travis-ci.org and add repository.
+6. Setup [mention-bot](https://github.com/facebook/mention-bot#how-to-use)
 
 ## Author
 
