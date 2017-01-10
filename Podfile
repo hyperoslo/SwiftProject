@@ -19,6 +19,7 @@ pod 'R.swift'
 pod 'ReachabilitySwift'
 pod 'Spots'
 pod 'Sugar'
+pod 'SwiftLint'
 pod 'Tabby', git: 'https://github.com/hyperoslo/Tabby'
 pod 'Tailor'
 
