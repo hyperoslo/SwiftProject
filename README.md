@@ -5,6 +5,7 @@ command line.
 
 - [x] A basic folder structure.
 - [x] Swift common types, helpers and configurators.
+- [x] Tab bar.
 - [x] [Podfile](https://github.com/hyperoslo/SwiftProject/Podfile) with
 recommended dependencies.
 - [x] [Swiftlint](https://github.com/realm/SwiftLint) configuration.
