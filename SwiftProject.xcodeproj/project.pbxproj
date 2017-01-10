@@ -62,6 +62,9 @@
 		D5B18E9C1E2570440027E792 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E9B1E2570440027E792 /* MainController.swift */; };
 		D5B18E9D1E2570440027E792 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E9B1E2570440027E792 /* MainController.swift */; };
 		D5B18E9E1E2570440027E792 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E9B1E2570440027E792 /* MainController.swift */; };
+		D5B18EA81E2575700027E792 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5B18EAC1E2575700027E792 /* Localizable.strings */; };
+		D5B18EA91E2575700027E792 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5B18EAC1E2575700027E792 /* Localizable.strings */; };
+		D5B18EAA1E2575700027E792 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5B18EAC1E2575700027E792 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +104,8 @@
 		D5B18E911E2568C80027E792 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		D5B18E961E2570000027E792 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		D5B18E9B1E2570440027E792 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		D5B18EA01E2574AE0027E792 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D5B18EAD1E2575840027E792 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D5C7F7401C3BC9CE008CDDBA /* SwiftProject Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProject Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,9 +144,11 @@
 		D57091751E23B69300C9347B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D5B18E9F1E2574AE0027E792 /* Fonts */,
 				D57091791E23B69300C9347B /* LaunchScreen.storyboard */,
 				D57091761E23B69300C9347B /* Assets.xcassets */,
 				D57091771E23B69300C9347B /* Info */,
+				D5B18EAC1E2575700027E792 /* Localizable.strings */,
 			);
 			name = Resources;
 			path = SwiftProject/Resources;
@@ -160,13 +167,13 @@
 		D570917A1E23B69300C9347B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D5B18E951E256FF00027E792 /* Features */,
-				D5892C9E1E25282400FFCF74 /* Extensions */,
-				D5892C991E25261200FFCF74 /* Stylesheets */,
-				D5892C941E25215A00FFCF74 /* Constants */,
-				D5892C7B1E251D3F00FFCF74 /* Config */,
-				D570917B1E23B69300C9347B /* AppDelegate.swift */,
 				D5B18E961E2570000027E792 /* App.swift */,
+				D570917B1E23B69300C9347B /* AppDelegate.swift */,
+				D5892C7B1E251D3F00FFCF74 /* Config */,
+				D5892C941E25215A00FFCF74 /* Constants */,
+				D5892C9E1E25282400FFCF74 /* Extensions */,
+				D5B18E951E256FF00027E792 /* Features */,
+				D5892C991E25261200FFCF74 /* Stylesheets */,
 			);
 			name = Sources;
 			path = SwiftProject/Sources;
@@ -260,6 +267,14 @@
 				D5B18E9B1E2570440027E792 /* MainController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		D5B18E9F1E2574AE0027E792 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5B18EA01E2574AE0027E792 /* .gitkeep */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		D5C7F7371C3BC9CE008CDDBA = {
@@ -405,8 +420,8 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				nb,
 			);
 			mainGroup = D5C7F7371C3BC9CE008CDDBA;
 			productRefGroup = D5C7F7411C3BC9CE008CDDBA /* Products */;
@@ -427,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D570918B1E23B90800C9347B /* LaunchScreen.storyboard in Resources */,
+				D5B18EA91E2575700027E792 /* Localizable.strings in Resources */,
 				D570918C1E23B90800C9347B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D570919B1E23B91200C9347B /* LaunchScreen.storyboard in Resources */,
+				D5B18EAA1E2575700027E792 /* Localizable.strings in Resources */,
 				D570919C1E23B91200C9347B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D570917F1E23B69300C9347B /* LaunchScreen.storyboard in Resources */,
+				D5B18EA81E2575700027E792 /* Localizable.strings in Resources */,
 				D570917D1E23B69300C9347B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -674,6 +692,17 @@
 			targetProxy = D57091AE1E23BA0200C9347B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5B18EAC1E2575700027E792 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5B18EAD1E2575840027E792 /* nb */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D57091911E23B90800C9347B /* Debug */ = {

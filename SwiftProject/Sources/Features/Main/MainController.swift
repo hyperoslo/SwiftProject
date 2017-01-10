@@ -5,6 +5,12 @@ class MainController: TabbyController {
 
   convenience init() {
     self.init(items: [])
+  }
+
+  // MARK: - View lifecycle
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
 
     // Controllers
     let firstController = UIViewController()
