@@ -36,5 +36,8 @@ Carthage
 # SPM
 .build/
 
+# R.swift
+*.generated.swift
+
 # Injection
 iOSInjectionProject/

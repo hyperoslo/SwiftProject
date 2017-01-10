@@ -21,7 +21,7 @@ public struct SpotsConfigurator: Configurable {
     // ListSpot.register(defaultView: TableCell.self)
     // ListSpot.register(header: TableHeader.self, identifier: HeaderIdentifier.header)
     // ListSpot.register(view: MenuTableCell.self, identifier: ViewIdentifier.menu)
-    
+
     // Grids
     // GridSpot.register(header: GridHeader.self, identifier: HeaderIdentifier.header)
     // GridSpot.register(view: MenuGridCell.self, identifier: ViewIdentifier.menu)

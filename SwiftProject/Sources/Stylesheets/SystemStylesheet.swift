@@ -36,7 +36,7 @@ struct SystemStylesheet: Stylesheet {
     share { (textField: UITextField) in
       textField.tintColor = UIColor.blue
     }
-    
+
     share { (label: UILabel) in
       label.adjustsFontSizeToFitWidth = true
     }

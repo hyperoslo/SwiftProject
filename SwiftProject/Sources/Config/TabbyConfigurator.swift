@@ -18,7 +18,7 @@ struct TabbyConfigurator: Configurable {
     Tabby.Constant.Color.separator = UIColor.black
     Tabby.Constant.Color.enabled = UIColor.lightText
     Tabby.Constant.Color.disabled = UIColor.lightText.alpha(0.5)
-    
+
     Tabby.Constant.Font.title = UIFont.systemFont(ofSize: 12)
   }
 }

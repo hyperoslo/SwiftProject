@@ -68,6 +68,10 @@ end
 # Rename files
 FileUtils.rm('README.md')
 File.rename('SwiftProject-README.md', 'README.md')
+
+FileUtils.rm('.gitignore')
+File.rename('SwiftProject.gitignore', '.gitignore')
+
 File.rename("SwiftProject", "#{project_name}")
 File.rename("SwiftProjectTests", "#{project_name}Tests")
 

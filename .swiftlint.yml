@@ -9,7 +9,7 @@ included: # paths to include during linting. `--path` is ignored if present.
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Carthage
   - Pods
-  - SwiftProject/Sources/Generated/R.generated.swift
+  - SwiftProject/Sources/Constants/R.generated.swift
 
 # configurable rules can be customized from this configuration file
 # binary rules can set their severity level
@@ -18,9 +18,9 @@ force_try:
   severity: warning # explicitly
 # rules that have both warning and error levels, can set just the warning level
 # implicitly
-line_length: 110
+line_length: 150
 function_body_length:
-  - 50 #warning
+  - 100 #warning
 # they can set both implicitly with an array
 type_body_length:
   - 300 # warning
@@ -39,8 +39,9 @@ type_name:
   excluded: iPhone # excluded via string
 variable_name:
   min_length: # only min_length
-    error: 4 # only error
+    error: 2 # only error
   excluded: # excluded via string array
+    - app
     - me
     - x
     - y

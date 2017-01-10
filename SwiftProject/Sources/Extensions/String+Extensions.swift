@@ -12,7 +12,9 @@ extension String {
   }
 
   func uppecaseFirst() -> String {
-    guard isPresent else { return self }
+    guard !isEmpty else {
+      return self
+    }
 
     var string = self
     string.replaceSubrange(string.startIndex...string.startIndex,
@@ -21,16 +23,28 @@ extension String {
     return string
   }
 
-  func withPrefix(of: Any.Type) -> String {
-    return String(describing: of) + self
+  func withPrefix(of prefix: Any.Type) -> String {
+    return String(describing: prefix) + self
   }
 
   func dashed() -> String {
-    let regex = try! NSRegularExpression(pattern: "(?<=[a-z])([A-Z])|([A-Z])(?=[a-z])", options: [])
-    let range = NSRange(location: 1, length: self.characters.count-1)
-    let snakeCase = regex.stringByReplacingMatches(in: self, options: [], range: range, withTemplate: "-$1$2")
+    return separated(by: "-")
+  }
 
-    return snakeCase
+  func separated(by delimiter: String) -> String {
+    let regex = try? NSRegularExpression(
+      pattern: "(?<=[a-z])([A-Z])|([A-Z])(?=[a-z])",
+      options: [])
+
+    let range = NSRange(location: 1, length: self.characters.count - 1)
+
+    let transformed = regex?.stringByReplacingMatches(
+      in: self,
+      options: [],
+      range: range,
+      withTemplate: "\(delimiter)$1$2")
+
+    return transformed ?? self
   }
 
   var unescaped: String {

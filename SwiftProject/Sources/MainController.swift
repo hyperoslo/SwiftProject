@@ -7,4 +7,3 @@ class MainController: UIViewController {
     view.backgroundColor = UIColor.white
   }
 }
-
