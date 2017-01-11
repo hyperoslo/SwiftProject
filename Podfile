@@ -8,7 +8,6 @@ inhibit_all_warnings!
 pod 'Fabric'
 pod 'Crashlytics'
 
-pod 'Aftermath'
 pod 'Compass'
 pod 'Fashion'
 pod 'Hue'

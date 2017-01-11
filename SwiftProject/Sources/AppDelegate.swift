@@ -10,7 +10,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var mainController: MainController?
 
   var configurators: [Configurable] = [
-    AftermathConfigurator(),
     CompassConfigurator(),
     FashionConfigurator(),
     MalibuConfigurator(),
