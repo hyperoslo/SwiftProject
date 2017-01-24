@@ -308,11 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57091901E23B90800C9347B /* Build configuration list for PBXNativeTarget "SwiftProject Pre-Production" */;
 			buildPhases = (
+				D570918E1E23B90800C9347B /* R.swift */,
 				D57091861E23B90800C9347B /* Sources */,
 				D57091891E23B90800C9347B /* Frameworks */,
 				D570918A1E23B90800C9347B /* Resources */,
 				D570918D1E23B90800C9347B /* Fabric */,
-				D570918E1E23B90800C9347B /* R.swift */,
 				D570918F1E23B90800C9347B /* SwiftLint */,
 			);
 			buildRules = (
@@ -328,11 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57091A01E23B91200C9347B /* Build configuration list for PBXNativeTarget "SwiftProject Production" */;
 			buildPhases = (
+				D570919E1E23B91200C9347B /* R.swift */,
 				D57091961E23B91200C9347B /* Sources */,
 				D57091991E23B91200C9347B /* Frameworks */,
 				D570919A1E23B91200C9347B /* Resources */,
 				D570919D1E23B91200C9347B /* Fabric */,
-				D570919E1E23B91200C9347B /* R.swift */,
 				D570919F1E23B91200C9347B /* SwiftLint */,
 			);
 			buildRules = (
@@ -366,11 +366,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5C7F7521C3BC9CE008CDDBA /* Build configuration list for PBXNativeTarget "SwiftProject Staging" */;
 			buildPhases = (
+				D57091831E23B83C00C9347B /* R.swift */,
 				D5C7F73C1C3BC9CE008CDDBA /* Sources */,
 				D5C7F73D1C3BC9CE008CDDBA /* Frameworks */,
 				D5C7F73E1C3BC9CE008CDDBA /* Resources */,
 				D57091821E23B81400C9347B /* Fabric */,
-				D57091831E23B83C00C9347B /* R.swift */,
 				D57091841E23B8E000C9347B /* SwiftLint */,
 			);
 			buildRules = (
