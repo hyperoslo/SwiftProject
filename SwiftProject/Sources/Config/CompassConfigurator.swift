@@ -4,6 +4,6 @@ import Sugar
 struct CompassConfigurator: Configurable {
 
   func configure() {
-    Compass.scheme = Application.executable.replacingOccurrences(of: " ", with: "-").lowercased()
+    Navigator.scheme = Application.executable.replacingOccurrences(of: " ", with: "-").lowercased()
   }
 }
