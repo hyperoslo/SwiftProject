@@ -1146,6 +1146,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProject/Resources/Info/Info-Staging.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-function-bodies=500 -DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftProject-Staging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -1163,6 +1164,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProject/Resources/Info/Info-Staging.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-function-bodies=500 -DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftProject-Staging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
