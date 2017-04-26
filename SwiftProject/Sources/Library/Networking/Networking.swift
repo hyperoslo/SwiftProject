@@ -1,9 +1,9 @@
 import Foundation
 import Malibu
 
-enum APIService: Endpoint {
+enum Endpoint: RequestConvertible {
 
-  static var baseUrl: URLStringConvertible {
+  static var baseUrl: URLStringConvertible? {
     return ""
   }
 
@@ -17,5 +17,5 @@ enum APIService: Endpoint {
 }
 
 struct NetworkingProvider {
-  let base: Networking<APIService>
+  let base: Networking<Endpoint>
 }
