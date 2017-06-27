@@ -985,7 +985,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftProject/Resources/Info/Info-Pre-Production.plist";
+				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Pre-Production.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SwiftProject;
@@ -1002,7 +1002,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftProject/Resources/Info/Info-Pre-Production.plist";
+				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Pre-Production.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SwiftProject;
@@ -1019,7 +1019,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftProject/Resources/Info/Info-Production.plist";
+				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Production.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BundleDomain.SwiftProject;
@@ -1036,7 +1036,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftProject/Resources/Info/Info-Production.plist";
+				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Production.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BundleDomain.SwiftProject;
@@ -1183,7 +1183,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftProject/Resources/Info/Info-Staging.plist";
+				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Staging.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-function-bodies=500 -DDEBUG";
@@ -1201,7 +1201,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftProject/Resources/Info/Info-Staging.plist";
+				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Staging.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-function-bodies=500 -DDEBUG";
