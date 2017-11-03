@@ -17,9 +17,6 @@
 		D258F4DD1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
 		D258F4DE1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
 		D258F4DF1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
-		D258F4E11E4088B30054F570 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4E01E4088B30054F570 /* Networking.swift */; };
-		D258F4E21E4088B30054F570 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4E01E4088B30054F570 /* Networking.swift */; };
-		D258F4E31E4088B30054F570 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4E01E4088B30054F570 /* Networking.swift */; };
 		D570917D1E23B69300C9347B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57091761E23B69300C9347B /* Assets.xcassets */; };
 		D570917F1E23B69300C9347B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57091791E23B69300C9347B /* LaunchScreen.storyboard */; };
 		D570918B1E23B90800C9347B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57091791E23B69300C9347B /* LaunchScreen.storyboard */; };
@@ -33,21 +30,9 @@
 		D5892C891E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */; };
 		D5892C8A1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */; };
 		D5892C8B1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */; };
-		D5892C961E25217400FFCF74 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C951E25217400FFCF74 /* Identifiers.swift */; };
-		D5892C971E25217400FFCF74 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C951E25217400FFCF74 /* Identifiers.swift */; };
-		D5892C981E25217400FFCF74 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C951E25217400FFCF74 /* Identifiers.swift */; };
-		D5892C9B1E25262600FFCF74 /* SystemStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C9A1E25262600FFCF74 /* SystemStylesheet.swift */; };
-		D5892C9C1E25262600FFCF74 /* SystemStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C9A1E25262600FFCF74 /* SystemStylesheet.swift */; };
-		D5892C9D1E25262600FFCF74 /* SystemStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C9A1E25262600FFCF74 /* SystemStylesheet.swift */; };
 		D5892CA01E25283400FFCF74 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C9F1E25283400FFCF74 /* String+Extensions.swift */; };
 		D5892CA11E25283400FFCF74 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C9F1E25283400FFCF74 /* String+Extensions.swift */; };
 		D5892CA21E25283400FFCF74 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C9F1E25283400FFCF74 /* String+Extensions.swift */; };
-		D5892CA41E2528E300FFCF74 /* MainStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */; };
-		D5892CA51E2528E300FFCF74 /* MainStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */; };
-		D5892CA61E2528E300FFCF74 /* MainStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */; };
-		D5B18E8C1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
-		D5B18E8D1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
-		D5B18E8E1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
 		D5B18E921E2568C80027E792 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E911E2568C80027E792 /* R.generated.swift */; };
 		D5B18E931E2568C80027E792 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E911E2568C80027E792 /* R.generated.swift */; };
 		D5B18E941E2568C80027E792 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E911E2568C80027E792 /* R.generated.swift */; };
@@ -83,7 +68,6 @@
 		B4ADAC3BC6E9CFB29872B02A /* Pods-SwiftProject Pre-Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject Pre-Production.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject Pre-Production/Pods-SwiftProject Pre-Production.release.xcconfig"; sourceTree = "<group>"; };
 		D258F4D51E4088A70054F570 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		D258F4D71E4088A70054F570 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D258F4E01E4088B30054F570 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D57091761E23B69300C9347B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D57091781E23B69300C9347B /* Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Staging.plist"; sourceTree = "<group>"; };
 		D57091791E23B69300C9347B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,11 +80,7 @@
 		D5892C771E25169D00FFCF74 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		D5892C801E251D9000FFCF74 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
 		D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MalibuConfigurator.swift; sourceTree = "<group>"; };
-		D5892C951E25217400FFCF74 /* Identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
-		D5892C9A1E25262600FFCF74 /* SystemStylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemStylesheet.swift; sourceTree = "<group>"; };
 		D5892C9F1E25283400FFCF74 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainStylesheet.swift; sourceTree = "<group>"; };
-		D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringConvertible+Extensions.swift"; sourceTree = "<group>"; };
 		D5B18E911E2568C80027E792 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		D5B18E9B1E2570440027E792 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		D5B18EA01E2574AE0027E792 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -179,17 +159,8 @@
 		D258F4D81E4088A70054F570 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				D258F4D91E4088A70054F570 /* Networking */,
 			);
 			path = Library;
-			sourceTree = "<group>";
-		};
-		D258F4D91E4088A70054F570 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				D258F4E01E4088B30054F570 /* Networking.swift */,
-			);
-			path = Networking;
 			sourceTree = "<group>";
 		};
 		D57091751E23B69300C9347B /* Resources */ = {
@@ -225,7 +196,6 @@
 				D5892C941E25215A00FFCF74 /* Constants */,
 				D5892C9E1E25282400FFCF74 /* Extensions */,
 				D5B18E951E256FF00027E792 /* Features */,
-				D5892C991E25261200FFCF74 /* Stylesheets */,
 			);
 			name = Sources;
 			path = SwiftProject/Sources;
@@ -276,26 +246,15 @@
 		D5892C941E25215A00FFCF74 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				D5892C951E25217400FFCF74 /* Identifiers.swift */,
 				D5B18E911E2568C80027E792 /* R.generated.swift */,
 			);
 			path = Constants;
-			sourceTree = "<group>";
-		};
-		D5892C991E25261200FFCF74 /* Stylesheets */ = {
-			isa = PBXGroup;
-			children = (
-				D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */,
-				D5892C9A1E25262600FFCF74 /* SystemStylesheet.swift */,
-			);
-			path = Stylesheets;
 			sourceTree = "<group>";
 		};
 		D5892C9E1E25282400FFCF74 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				D5892C9F1E25283400FFCF74 /* String+Extensions.swift */,
-				D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -862,15 +821,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5892C9C1E25262600FFCF74 /* SystemStylesheet.swift in Sources */,
 				D5892CA11E25283400FFCF74 /* String+Extensions.swift in Sources */,
-				D5892CA51E2528E300FFCF74 /* MainStylesheet.swift in Sources */,
-				D258F4E21E4088B30054F570 /* Networking.swift in Sources */,
 				D258F4DE1E4088A70054F570 /* AppDelegate.swift in Sources */,
 				D5892C8A1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
-				D5B18E8D1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D258F4DB1E4088A70054F570 /* App.swift in Sources */,
-				D5892C971E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5B18E9D1E2570440027E792 /* MainController.swift in Sources */,
 				D5892C821E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E931E2568C80027E792 /* R.generated.swift in Sources */,
@@ -881,15 +835,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5892C9D1E25262600FFCF74 /* SystemStylesheet.swift in Sources */,
 				D5892CA21E25283400FFCF74 /* String+Extensions.swift in Sources */,
-				D5892CA61E2528E300FFCF74 /* MainStylesheet.swift in Sources */,
-				D258F4E31E4088B30054F570 /* Networking.swift in Sources */,
 				D258F4DF1E4088A70054F570 /* AppDelegate.swift in Sources */,
 				D5892C8B1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
-				D5B18E8E1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D258F4DC1E4088A70054F570 /* App.swift in Sources */,
-				D5892C981E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5B18E9E1E2570440027E792 /* MainController.swift in Sources */,
 				D5892C831E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E941E2568C80027E792 /* R.generated.swift in Sources */,
@@ -908,15 +857,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5892C9B1E25262600FFCF74 /* SystemStylesheet.swift in Sources */,
 				D5892CA01E25283400FFCF74 /* String+Extensions.swift in Sources */,
-				D5892CA41E2528E300FFCF74 /* MainStylesheet.swift in Sources */,
-				D258F4E11E4088B30054F570 /* Networking.swift in Sources */,
 				D258F4DD1E4088A70054F570 /* AppDelegate.swift in Sources */,
 				D5892C891E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
-				D5B18E8C1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */,
 				D258F4DA1E4088A70054F570 /* App.swift in Sources */,
-				D5892C961E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5B18E9C1E2570440027E792 /* MainController.swift in Sources */,
 				D5892C811E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E921E2568C80027E792 /* R.generated.swift in Sources */,
