@@ -30,18 +30,9 @@
 		D5892C811E251D9000FFCF74 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C801E251D9000FFCF74 /* Configurable.swift */; };
 		D5892C821E251D9000FFCF74 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C801E251D9000FFCF74 /* Configurable.swift */; };
 		D5892C831E251D9000FFCF74 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C801E251D9000FFCF74 /* Configurable.swift */; };
-		D5892C851E251DBC00FFCF74 /* FashionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C841E251DBC00FFCF74 /* FashionConfigurator.swift */; };
-		D5892C861E251DBC00FFCF74 /* FashionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C841E251DBC00FFCF74 /* FashionConfigurator.swift */; };
-		D5892C871E251DBC00FFCF74 /* FashionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C841E251DBC00FFCF74 /* FashionConfigurator.swift */; };
 		D5892C891E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */; };
 		D5892C8A1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */; };
 		D5892C8B1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */; };
-		D5892C8D1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C8C1E251DFE00FFCF74 /* CompassConfigurator.swift */; };
-		D5892C8E1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C8C1E251DFE00FFCF74 /* CompassConfigurator.swift */; };
-		D5892C8F1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C8C1E251DFE00FFCF74 /* CompassConfigurator.swift */; };
-		D5892C911E251E0900FFCF74 /* SpotsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C901E251E0900FFCF74 /* SpotsConfigurator.swift */; };
-		D5892C921E251E0900FFCF74 /* SpotsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C901E251E0900FFCF74 /* SpotsConfigurator.swift */; };
-		D5892C931E251E0900FFCF74 /* SpotsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C901E251E0900FFCF74 /* SpotsConfigurator.swift */; };
 		D5892C961E25217400FFCF74 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C951E25217400FFCF74 /* Identifiers.swift */; };
 		D5892C971E25217400FFCF74 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C951E25217400FFCF74 /* Identifiers.swift */; };
 		D5892C981E25217400FFCF74 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C951E25217400FFCF74 /* Identifiers.swift */; };
@@ -54,9 +45,6 @@
 		D5892CA41E2528E300FFCF74 /* MainStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */; };
 		D5892CA51E2528E300FFCF74 /* MainStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */; };
 		D5892CA61E2528E300FFCF74 /* MainStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */; };
-		D5892CA81E25299200FFCF74 /* TabbyConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA71E25299200FFCF74 /* TabbyConfigurator.swift */; };
-		D5892CA91E25299200FFCF74 /* TabbyConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA71E25299200FFCF74 /* TabbyConfigurator.swift */; };
-		D5892CAA1E25299200FFCF74 /* TabbyConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892CA71E25299200FFCF74 /* TabbyConfigurator.swift */; };
 		D5B18E8C1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
 		D5B18E8D1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
 		D5B18E8E1E255F250027E792 /* StringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */; };
@@ -107,15 +95,11 @@
 		D5892C751E25169D00FFCF74 /* Info-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests.plist"; sourceTree = "<group>"; };
 		D5892C771E25169D00FFCF74 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		D5892C801E251D9000FFCF74 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
-		D5892C841E251DBC00FFCF74 /* FashionConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FashionConfigurator.swift; sourceTree = "<group>"; };
 		D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MalibuConfigurator.swift; sourceTree = "<group>"; };
-		D5892C8C1E251DFE00FFCF74 /* CompassConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassConfigurator.swift; sourceTree = "<group>"; };
-		D5892C901E251E0900FFCF74 /* SpotsConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotsConfigurator.swift; sourceTree = "<group>"; };
 		D5892C951E25217400FFCF74 /* Identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
 		D5892C9A1E25262600FFCF74 /* SystemStylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemStylesheet.swift; sourceTree = "<group>"; };
 		D5892C9F1E25283400FFCF74 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		D5892CA31E2528E300FFCF74 /* MainStylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainStylesheet.swift; sourceTree = "<group>"; };
-		D5892CA71E25299200FFCF74 /* TabbyConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbyConfigurator.swift; sourceTree = "<group>"; };
 		D5B18E8B1E255F250027E792 /* StringConvertible+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringConvertible+Extensions.swift"; sourceTree = "<group>"; };
 		D5B18E911E2568C80027E792 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		D5B18E9B1E2570440027E792 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -284,11 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				D5892C801E251D9000FFCF74 /* Configurable.swift */,
-				D5892C8C1E251DFE00FFCF74 /* CompassConfigurator.swift */,
-				D5892C841E251DBC00FFCF74 /* FashionConfigurator.swift */,
 				D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */,
-				D5892C901E251E0900FFCF74 /* SpotsConfigurator.swift */,
-				D5892CA71E25299200FFCF74 /* TabbyConfigurator.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -892,12 +872,8 @@
 				D258F4DB1E4088A70054F570 /* App.swift in Sources */,
 				D5892C971E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5B18E9D1E2570440027E792 /* MainController.swift in Sources */,
-				D5892C8E1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */,
 				D5892C821E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E931E2568C80027E792 /* R.generated.swift in Sources */,
-				D5892CA91E25299200FFCF74 /* TabbyConfigurator.swift in Sources */,
-				D5892C921E251E0900FFCF74 /* SpotsConfigurator.swift in Sources */,
-				D5892C861E251DBC00FFCF74 /* FashionConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,12 +891,8 @@
 				D258F4DC1E4088A70054F570 /* App.swift in Sources */,
 				D5892C981E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5B18E9E1E2570440027E792 /* MainController.swift in Sources */,
-				D5892C8F1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */,
 				D5892C831E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E941E2568C80027E792 /* R.generated.swift in Sources */,
-				D5892CAA1E25299200FFCF74 /* TabbyConfigurator.swift in Sources */,
-				D5892C931E251E0900FFCF74 /* SpotsConfigurator.swift in Sources */,
-				D5892C871E251DBC00FFCF74 /* FashionConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -946,12 +918,8 @@
 				D258F4DA1E4088A70054F570 /* App.swift in Sources */,
 				D5892C961E25217400FFCF74 /* Identifiers.swift in Sources */,
 				D5B18E9C1E2570440027E792 /* MainController.swift in Sources */,
-				D5892C8D1E251DFE00FFCF74 /* CompassConfigurator.swift in Sources */,
 				D5892C811E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E921E2568C80027E792 /* R.generated.swift in Sources */,
-				D5892CA81E25299200FFCF74 /* TabbyConfigurator.swift in Sources */,
-				D5892C911E251E0900FFCF74 /* SpotsConfigurator.swift in Sources */,
-				D5892C851E251DBC00FFCF74 /* FashionConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
