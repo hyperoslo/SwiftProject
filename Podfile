@@ -5,22 +5,11 @@ platform :ios, '9.0'
 use_frameworks!
 inhibit_all_warnings!
 
-pod 'Fabric'
-pod 'Crashlytics'
-
-pod 'Compass'
-pod 'Fashion'
 pod 'Hue'
 pod 'Imaginary'
-pod 'MainThreadGuard', git: 'https://github.com/onmyway133/MainThreadGuard', configurations: 'Debug'
 pod 'Malibu'
 pod 'R.swift'
-pod 'ReachabilitySwift'
-pod 'Spots'
-pod 'Sugar'
 pod 'SwiftLint'
-pod 'Tabby', git: 'https://github.com/hyperoslo/Tabby'
-pod 'Tailor'
 
 target 'SwiftProject Staging'
 target 'SwiftProject Pre-Production'
