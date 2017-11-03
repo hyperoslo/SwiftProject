@@ -14,18 +14,11 @@ folder_path = __dir__
 repo_name = prompt('GitHub repository name')
 bundle_domain = prompt('Client bundle domain')
 project_name = prompt('Project name')
-urn_scheme = project_name.downcase.delete(' ')
 
 # Configs
 file_names = Dir["#{folder_path}/**/*.*"]
 file_names.push(".swiftlint.yml")
-file_names.push(".travis.yml")
 file_names.push("Podfile")
-
-# Fatlane
-file_names.push("fastlane/Appfile")
-file_names.push("fastlane/Deliverfile")
-file_names.push("fastlane/Fastfile")
 
 # Project
 file_names.push("SwiftProject.xcodeproj/project.pbxproj")
@@ -59,7 +52,6 @@ file_names.each do |file_name|
     new_contents = new_contents.gsub(/SwiftProject/, project_name)
     new_contents = new_contents.gsub(/BundleDomain/, bundle_domain)
     new_contents = new_contents.gsub(/BundleDomain/, bundle_domain)
-    new_contents = new_contents.gsub(/compassurnscheme/, urn_scheme)
 
     File.open(file_name, "w") {|file| file.puts new_contents }
   end
