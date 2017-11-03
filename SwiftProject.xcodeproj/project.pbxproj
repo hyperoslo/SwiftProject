@@ -652,7 +652,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Constants\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SwiftProject/Sources/Constants\"";
 		};
 		D57091841E23B8E000C9347B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -680,7 +680,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Constants\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SwiftProject/Sources/Constants\"";
 		};
 		D570918F1E23B90800C9347B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -708,7 +708,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/SwiftProject/Sources/Constants\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SwiftProject/Sources/Constants\"";
 		};
 		D570919F1E23B91200C9347B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
