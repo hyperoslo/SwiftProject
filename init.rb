@@ -51,7 +51,6 @@ file_names.each do |file_name|
     new_contents = text.gsub(/<REPONAME>/, repo_name)
     new_contents = new_contents.gsub(/SwiftProject/, project_name)
     new_contents = new_contents.gsub(/BundleDomain/, bundle_domain)
-    new_contents = new_contents.gsub(/BundleDomain/, bundle_domain)
 
     File.open(file_name, "w") {|file| file.puts new_contents }
   end
