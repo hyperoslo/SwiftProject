@@ -11,9 +11,9 @@
 		0759C6EBBD84C5BE6B303996 /* Pods_SwiftProject_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B13CD07E71174688B94C921 /* Pods_SwiftProject_Tests.framework */; };
 		2E501C82006A1E4CCC53F021 /* Pods_SwiftProject_Staging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3F8E310D9652871FAB530 /* Pods_SwiftProject_Staging.framework */; };
 		69BE74C8CBB90916E621F2FD /* Pods_SwiftProject_Pre_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CDCEA86C1100790A20EF6E /* Pods_SwiftProject_Pre_Production.framework */; };
-		D258F4DA1E4088A70054F570 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D51E4088A70054F570 /* App.swift */; };
-		D258F4DB1E4088A70054F570 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D51E4088A70054F570 /* App.swift */; };
-		D258F4DC1E4088A70054F570 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D51E4088A70054F570 /* App.swift */; };
+		D258F4DA1E4088A70054F570 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D51E4088A70054F570 /* AppCoordinator.swift */; };
+		D258F4DB1E4088A70054F570 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D51E4088A70054F570 /* AppCoordinator.swift */; };
+		D258F4DC1E4088A70054F570 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D51E4088A70054F570 /* AppCoordinator.swift */; };
 		D258F4DD1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
 		D258F4DE1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
 		D258F4DF1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
@@ -66,7 +66,7 @@
 		9990E5F963EEFC471F2D862B /* Pods-SwiftProject Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject Tests/Pods-SwiftProject Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4E3F8E310D9652871FAB530 /* Pods_SwiftProject_Staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject_Staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4ADAC3BC6E9CFB29872B02A /* Pods-SwiftProject Pre-Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject Pre-Production.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject Pre-Production/Pods-SwiftProject Pre-Production.release.xcconfig"; sourceTree = "<group>"; };
-		D258F4D51E4088A70054F570 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		D258F4D51E4088A70054F570 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D258F4D71E4088A70054F570 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D57091761E23B69300C9347B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D57091781E23B69300C9347B /* Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Staging.plist"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		D258F4D41E4088A70054F570 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				D258F4D51E4088A70054F570 /* App.swift */,
+				D258F4D51E4088A70054F570 /* AppCoordinator.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -511,9 +511,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject Pre-Production/Pods-SwiftProject Pre-Production-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Malibu/Malibu.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/When/When.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Malibu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/When.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -526,9 +539,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject Staging/Pods-SwiftProject Staging-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Malibu/Malibu.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/When/When.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Malibu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/When.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -541,9 +567,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject Production/Pods-SwiftProject Production-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Malibu/Malibu.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/When/When.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Malibu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/When.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -586,13 +625,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftProject Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7ECC02A6C2ACA83CA84E5F4D /* [CP] Check Pods Manifest.lock */ = {
@@ -601,13 +643,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftProject Staging-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A8BB1A2E30CDEBC34909FA7B /* [CP] Check Pods Manifest.lock */ = {
@@ -616,13 +661,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftProject Production-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B34AC4C90232DAC69F26793A /* [CP] Copy Pods Resources */ = {
@@ -745,13 +793,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftProject Pre-Production-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD5AF5792C34A814F124961E /* [CP] Copy Pods Resources */ = {
@@ -779,7 +830,7 @@
 				D5892CA11E25283400FFCF74 /* String+Extensions.swift in Sources */,
 				D258F4DE1E4088A70054F570 /* AppDelegate.swift in Sources */,
 				D5892C8A1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
-				D258F4DB1E4088A70054F570 /* App.swift in Sources */,
+				D258F4DB1E4088A70054F570 /* AppCoordinator.swift in Sources */,
 				D5B18E9D1E2570440027E792 /* MainController.swift in Sources */,
 				D5892C821E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E931E2568C80027E792 /* R.generated.swift in Sources */,
@@ -793,7 +844,7 @@
 				D5892CA21E25283400FFCF74 /* String+Extensions.swift in Sources */,
 				D258F4DF1E4088A70054F570 /* AppDelegate.swift in Sources */,
 				D5892C8B1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
-				D258F4DC1E4088A70054F570 /* App.swift in Sources */,
+				D258F4DC1E4088A70054F570 /* AppCoordinator.swift in Sources */,
 				D5B18E9E1E2570440027E792 /* MainController.swift in Sources */,
 				D5892C831E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E941E2568C80027E792 /* R.generated.swift in Sources */,
@@ -815,7 +866,7 @@
 				D5892CA01E25283400FFCF74 /* String+Extensions.swift in Sources */,
 				D258F4DD1E4088A70054F570 /* AppDelegate.swift in Sources */,
 				D5892C891E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
-				D258F4DA1E4088A70054F570 /* App.swift in Sources */,
+				D258F4DA1E4088A70054F570 /* AppCoordinator.swift in Sources */,
 				D5B18E9C1E2570440027E792 /* MainController.swift in Sources */,
 				D5892C811E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E921E2568C80027E792 /* R.generated.swift in Sources */,
