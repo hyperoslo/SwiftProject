@@ -1,7 +1,4 @@
 import UIKit
-import Fabric
-import Crashlytics
-import Sugar
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -10,11 +7,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var mainController: MainController?
 
   var configurators: [Configurable] = [
-    CompassConfigurator(),
-    FashionConfigurator(),
-    MalibuConfigurator(),
-    SpotsConfigurator(),
-    TabbyConfigurator()
+    MalibuConfigurator()
   ]
 
   // MARK: - Initialization
@@ -27,12 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    if !Simulator.isRunning && !UnitTesting.isRunning {
-      Fabric.with([Crashlytics.self])
-    }
-
-    App.delegate = self
-
     configurators.forEach {
       $0.configure()
     }
@@ -43,21 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window?.rootViewController = mainController
     window?.makeKeyAndVisible()
 
-    return true
-  }
-}
-
-// MARK: - Routing
-
-extension AppDelegate {
-
-  func application(_ app: UIApplication, open url: URL,
-                   options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
-    return handle(url: url)
-  }
-
-  @discardableResult func handle(url: URL, fragments: [String: Any] = [:]) -> Bool {
-    // Navigation
     return true
   }
 }
