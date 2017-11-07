@@ -8,8 +8,8 @@ inhibit_all_warnings!
 pod 'Hue', '~> 3.0'
 pod 'Imaginary', '~> 3.0'
 pod 'Malibu', '~> 6.0'
-pod 'R.swift', '~> 4.0'
-pod 'SwiftLint'
+pod 'R.swift', '~> 4.0', configurations: 'Debug'
+pod 'SwiftLint', configurations: 'Debug'
 
 target 'SwiftProject Staging'
 target 'SwiftProject Pre-Production'
