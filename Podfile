@@ -12,7 +12,6 @@ pod 'R.swift', '~> 4.0', configurations: 'Debug'
 pod 'SwiftLint', configurations: 'Debug'
 
 target 'SwiftProject Staging'
-target 'SwiftProject Pre-Production'
 target 'SwiftProject Production'
 
 target 'SwiftProject Tests' do
