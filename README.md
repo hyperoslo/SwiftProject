@@ -25,7 +25,7 @@ command line.
 - Resources: contains resource files
 	- Assets Catalog
 	- Fonts
-	- Info: 
+	- Info 
 	- Storyboard
 	- Localised strings files
 
