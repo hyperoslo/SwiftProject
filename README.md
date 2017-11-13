@@ -3,11 +3,31 @@
 **SwiftProject** is a template to generate Swift-based iOS projects from the
 command line.
 
+## Features
+
 - [x] A basic folder structure.
 - [x] Swift common types, helpers and configurators.
-- [x] [Podfile](https://github.com/hyperoslo/SwiftProject/Podfile) with
-recommended dependencies.
-- [x] [Swiftlint](https://github.com/realm/SwiftLint) configuration.
+- [x] Recommended pods in `Podfile`
+- [x] Integrated [SwiftLint](https://github.com/realm/SwiftLint) and [R.swift](https://github.com/mac-cain13/R.swift)
+- [x] Schemes for `Staging` and `Production`
+
+## Project Structure
+
+- Sources: contains source files
+	- App
+	- AppDelegate
+	- Config
+	- Constants
+	- Extensions
+	- Features
+	- Library
+
+- Resources: contains resource files
+	- Assets Catalog
+	- Fonts
+	- Info: 
+	- Storyboard
+	- Localised strings files
 
 ## Usage
 
