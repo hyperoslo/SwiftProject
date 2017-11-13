@@ -62,7 +62,6 @@
 		D57091791E23B69300C9347B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D57091A31E23B91200C9347B /* SwiftProject Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProject Production.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57091A91E23BA0200C9347B /* SwiftProject Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftProject Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D57091B31E23BA7D00C9347B /* Info-Pre-Production.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Pre-Production.plist"; sourceTree = "<group>"; };
 		D57091B41E23BA7D00C9347B /* Info-Production.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Production.plist"; sourceTree = "<group>"; };
 		D5892C751E25169D00FFCF74 /* Info-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests.plist"; sourceTree = "<group>"; };
 		D5892C771E25169D00FFCF74 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -159,7 +158,6 @@
 		D57091771E23B69300C9347B /* Info */ = {
 			isa = PBXGroup;
 			children = (
-				D57091B31E23BA7D00C9347B /* Info-Pre-Production.plist */,
 				D57091B41E23BA7D00C9347B /* Info-Production.plist */,
 				D57091781E23B69300C9347B /* Info-Staging.plist */,
 			);
