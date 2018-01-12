@@ -24,7 +24,6 @@ file_names.push("Podfile")
 file_names.push("SwiftProject.xcodeproj/project.pbxproj")
 file_names.push("SwiftProject.xcodeproj/project.xcworkspace/contents.xcworkspacedata")
 file_names.push("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Staging.xcscheme")
-file_names.push("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Pre-Production.xcscheme")
 file_names.push("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Production.xcscheme")
 file_names.push("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Tests.xcscheme")
 
@@ -68,9 +67,6 @@ File.rename("SwiftProjectTests", "#{project_name}Tests")
 
 File.rename("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Staging.xcscheme",
   "SwiftProject.xcodeproj/xcshareddata/xcschemes/#{project_name} Staging.xcscheme")
-
-File.rename("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Pre-Production.xcscheme",
-  "SwiftProject.xcodeproj/xcshareddata/xcschemes/#{project_name} Pre-Production.xcscheme")
 
 File.rename("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Production.xcscheme",
   "SwiftProject.xcodeproj/xcshareddata/xcschemes/#{project_name} Production.xcscheme")
