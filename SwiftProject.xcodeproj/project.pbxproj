@@ -255,10 +255,10 @@
 			buildPhases = (
 				A8BB1A2E30CDEBC34909FA7B /* [CP] Check Pods Manifest.lock */,
 				D570919E1E23B91200C9347B /* R.swift */,
+				D570919F1E23B91200C9347B /* SwiftLint */,
 				D57091961E23B91200C9347B /* Sources */,
 				D57091991E23B91200C9347B /* Frameworks */,
 				D570919A1E23B91200C9347B /* Resources */,
-				D570919F1E23B91200C9347B /* SwiftLint */,
 				310812B34387DC67E52D3326 /* [CP] Embed Pods Frameworks */,
 				FD5AF5792C34A814F124961E /* [CP] Copy Pods Resources */,
 			);
@@ -298,10 +298,10 @@
 			buildPhases = (
 				7ECC02A6C2ACA83CA84E5F4D /* [CP] Check Pods Manifest.lock */,
 				D57091831E23B83C00C9347B /* R.swift */,
+				D57091841E23B8E000C9347B /* SwiftLint */,
 				D5C7F73C1C3BC9CE008CDDBA /* Sources */,
 				D5C7F73D1C3BC9CE008CDDBA /* Frameworks */,
 				D5C7F73E1C3BC9CE008CDDBA /* Resources */,
-				D57091841E23B8E000C9347B /* SwiftLint */,
 				30AC2CBEC0061127182413AE /* [CP] Embed Pods Frameworks */,
 				B34AC4C90232DAC69F26793A /* [CP] Copy Pods Resources */,
 			);
@@ -556,7 +556,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" --path Source";
 		};
 		D570919E1E23B91200C9347B /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -584,7 +584,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" --path Source";
 		};
 		E6FC417726C7BE40F4CF3C3E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
