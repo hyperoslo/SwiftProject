@@ -125,12 +125,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D258F4D61E4088A70054F570 /* AppDelegate */ = {
+		BD4FCFBC2090FF2200824386 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BD4FCFBD2090FF2200824386 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD4FCFBE2090FF2200824386 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D258F4D61E4088A70054F570 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				D258F4D71E4088A70054F570 /* AppDelegate.swift */,
 			);
-			path = AppDelegate;
+			path = App;
 			sourceTree = "<group>";
 		};
 		D57091751E23B69300C9347B /* Resources */ = {
@@ -157,8 +178,11 @@
 		D570917A1E23B69300C9347B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D258F4D61E4088A70054F570 /* AppDelegate */,
+				D258F4D61E4088A70054F570 /* App */,
 				D5892C9E1E25282400FFCF74 /* Extensions */,
+				BD4FCFBE2090FF2200824386 /* Features */,
+				BD4FCFBD2090FF2200824386 /* Models */,
+				BD4FCFBC2090FF2200824386 /* Protocols */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
