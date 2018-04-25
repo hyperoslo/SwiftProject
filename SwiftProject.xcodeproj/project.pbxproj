@@ -10,6 +10,20 @@
 		05E6D53FE3686B9776F84F9E /* Pods_SwiftProject_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BA405F4EE93F94DDCBD561 /* Pods_SwiftProject_Production.framework */; };
 		0759C6EBBD84C5BE6B303996 /* Pods_SwiftProject_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B13CD07E71174688B94C921 /* Pods_SwiftProject_Tests.framework */; };
 		2E501C82006A1E4CCC53F021 /* Pods_SwiftProject_Staging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3F8E310D9652871FAB530 /* Pods_SwiftProject_Staging.framework */; };
+		BD4FCFA02090FDF000824386 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9E2090F80800824386 /* UITableViewCell+Extensions.swift */; };
+		BD4FCFA12090FDF100824386 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9E2090F80800824386 /* UITableViewCell+Extensions.swift */; };
+		BD4FCFA22090FDF500824386 /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9F2090F80800824386 /* NSLayoutConstraint+Extensions.swift */; };
+		BD4FCFA32090FDF500824386 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9A2090F80800824386 /* UICollectionView+Extensions.swift */; };
+		BD4FCFA42090FDF500824386 /* UICollectionViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9B2090F80800824386 /* UICollectionViewCell+Extensions.swift */; };
+		BD4FCFA52090FDF500824386 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9C2090F80800824386 /* UIStackView+Extensions.swift */; };
+		BD4FCFA62090FDF500824386 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF992090F80700824386 /* UITableView+Extensions.swift */; };
+		BD4FCFA72090FDF500824386 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9D2090F80800824386 /* UIView+Extensions.swift */; };
+		BD4FCFA82090FDF600824386 /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9F2090F80800824386 /* NSLayoutConstraint+Extensions.swift */; };
+		BD4FCFA92090FDF600824386 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9A2090F80800824386 /* UICollectionView+Extensions.swift */; };
+		BD4FCFAA2090FDF600824386 /* UICollectionViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9B2090F80800824386 /* UICollectionViewCell+Extensions.swift */; };
+		BD4FCFAB2090FDF600824386 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9C2090F80800824386 /* UIStackView+Extensions.swift */; };
+		BD4FCFAC2090FDF600824386 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF992090F80700824386 /* UITableView+Extensions.swift */; };
+		BD4FCFAD2090FDF600824386 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF9D2090F80800824386 /* UIView+Extensions.swift */; };
 		D258F4DD1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
 		D258F4DF1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
 		D570917D1E23B69300C9347B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57091761E23B69300C9347B /* Assets.xcassets */; };
@@ -624,7 +638,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D258F4DF1E4088A70054F570 /* AppDelegate.swift in Sources */,
+				BD4FCFA22090FDF500824386 /* NSLayoutConstraint+Extensions.swift in Sources */,
+				BD4FCFA32090FDF500824386 /* UICollectionView+Extensions.swift in Sources */,
+				BD4FCFA72090FDF500824386 /* UIView+Extensions.swift in Sources */,
+				BD4FCFA62090FDF500824386 /* UITableView+Extensions.swift in Sources */,
 				D5B18E941E2568C80027E792 /* R.generated.swift in Sources */,
+				BD4FCFA52090FDF500824386 /* UIStackView+Extensions.swift in Sources */,
+				BD4FCFA42090FDF500824386 /* UICollectionViewCell+Extensions.swift in Sources */,
+				BD4FCFA02090FDF000824386 /* UITableViewCell+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,7 +662,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D258F4DD1E4088A70054F570 /* AppDelegate.swift in Sources */,
+				BD4FCFA82090FDF600824386 /* NSLayoutConstraint+Extensions.swift in Sources */,
+				BD4FCFA92090FDF600824386 /* UICollectionView+Extensions.swift in Sources */,
+				BD4FCFAD2090FDF600824386 /* UIView+Extensions.swift in Sources */,
+				BD4FCFAC2090FDF600824386 /* UITableView+Extensions.swift in Sources */,
 				D5B18E921E2568C80027E792 /* R.generated.swift in Sources */,
+				BD4FCFAB2090FDF600824386 /* UIStackView+Extensions.swift in Sources */,
+				BD4FCFAA2090FDF600824386 /* UICollectionViewCell+Extensions.swift in Sources */,
+				BD4FCFA12090FDF100824386 /* UITableViewCell+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
