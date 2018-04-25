@@ -4,20 +4,33 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
 
-  // MARK: - Initialization
-
-  override init() {
-    super.init()
-  }
-
   // MARK: - App lifecycle
 
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    window = UIWindow(frame: UIScreen.main.bounds)
-    window?.rootViewController = mainController
-    window?.makeKeyAndVisible()
-
+    #if DEBUG
+    Bundle(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")?.load()
+    #endif
+    loadInitialState()
+    NotificationCenter.default.addObserver(self,
+                                           selector: #selector(didInject),
+                                           name: NSNotification.Name(rawValue: "INJECTION_BUNDLE_NOTIFICATION"),
+                                           object: nil)
     return true
+  }
+
+  // MARK: - Initial state
+
+  private func loadInitialState() {
+    let window = UIWindow(frame: UIScreen.main.bounds)
+    let controller = UIViewController()
+    window.rootViewController = controller
+    self.window = window
+  }
+
+  // MARK: - Injection
+
+  @objc func didInject() {
+    loadInitialState()
   }
 }
