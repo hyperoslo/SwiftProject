@@ -150,13 +150,13 @@
 			path = Source;
 			sourceTree = SOURCE_ROOT;
 		};
-		D5892C721E25169D00FFCF74 /* SwiftProjectTests */ = {
+		D5892C721E25169D00FFCF74 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				D5892C731E25169D00FFCF74 /* Resources */,
-				D5892C761E25169D00FFCF74 /* Sources */,
+				D5892C761E25169D00FFCF74 /* Source */,
 			);
-			path = SwiftProjectTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		D5892C731E25169D00FFCF74 /* Resources */ = {
@@ -175,12 +175,12 @@
 			path = Info;
 			sourceTree = "<group>";
 		};
-		D5892C761E25169D00FFCF74 /* Sources */ = {
+		D5892C761E25169D00FFCF74 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				D5892C771E25169D00FFCF74 /* Tests.swift */,
 			);
-			path = Sources;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		D5892C941E25215A00FFCF74 /* Constants */ = {
@@ -216,13 +216,12 @@
 		D5C7F7371C3BC9CE008CDDBA = {
 			isa = PBXGroup;
 			children = (
+				DAC929FF900C10A0846FCC67 /* Frameworks */,
+				39BA4D395B97F580C3286020 /* Pods */,
+				D5C7F7411C3BC9CE008CDDBA /* Products */,
 				D57091751E23B69300C9347B /* Resources */,
 				D570917A1E23B69300C9347B /* Source */,
-				D5C7F7421C3BC9CE008CDDBA /* SwiftProject */,
-				D5892C721E25169D00FFCF74 /* SwiftProjectTests */,
-				D5C7F7411C3BC9CE008CDDBA /* Products */,
-				39BA4D395B97F580C3286020 /* Pods */,
-				DAC929FF900C10A0846FCC67 /* Frameworks */,
+				D5892C721E25169D00FFCF74 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,13 +233,6 @@
 				D57091A91E23BA0200C9347B /* SwiftProject Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D5C7F7421C3BC9CE008CDDBA /* SwiftProject */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SwiftProject;
 			sourceTree = "<group>";
 		};
 		DAC929FF900C10A0846FCC67 /* Frameworks */ = {
