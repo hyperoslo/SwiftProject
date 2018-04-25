@@ -144,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				D258F4D61E4088A70054F570 /* AppDelegate */,
-				D5892C941E25215A00FFCF74 /* Constants */,
 				D5892C9E1E25282400FFCF74 /* Extensions */,
 			);
 			path = Source;
@@ -183,12 +182,12 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		D5892C941E25215A00FFCF74 /* Constants */ = {
+		D5892C941E25215A00FFCF74 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
 				D5B18E911E2568C80027E792 /* R.generated.swift */,
 			);
-			path = Constants;
+			path = Generated;
 			sourceTree = "<group>";
 		};
 		D5892C9E1E25282400FFCF74 /* Extensions */ = {
@@ -217,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				DAC929FF900C10A0846FCC67 /* Frameworks */,
+				D5892C941E25215A00FFCF74 /* Generated */,
 				39BA4D395B97F580C3286020 /* Pods */,
 				D5C7F7411C3BC9CE008CDDBA /* Products */,
 				D57091751E23B69300C9347B /* Resources */,
@@ -542,7 +542,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SwiftProject/Sources/Constants\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Generated\"";
 		};
 		D57091841E23B8E000C9347B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -570,7 +570,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SwiftProject/Sources/Constants\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Generated\"";
 		};
 		D570919F1E23B91200C9347B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
