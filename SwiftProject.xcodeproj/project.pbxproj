@@ -10,8 +10,6 @@
 		05E6D53FE3686B9776F84F9E /* Pods_SwiftProject_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BA405F4EE93F94DDCBD561 /* Pods_SwiftProject_Production.framework */; };
 		0759C6EBBD84C5BE6B303996 /* Pods_SwiftProject_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B13CD07E71174688B94C921 /* Pods_SwiftProject_Tests.framework */; };
 		2E501C82006A1E4CCC53F021 /* Pods_SwiftProject_Staging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3F8E310D9652871FAB530 /* Pods_SwiftProject_Staging.framework */; };
-		D258F4DA1E4088A70054F570 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D51E4088A70054F570 /* AppCoordinator.swift */; };
-		D258F4DC1E4088A70054F570 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D51E4088A70054F570 /* AppCoordinator.swift */; };
 		D258F4DD1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
 		D258F4DF1E4088A70054F570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258F4D71E4088A70054F570 /* AppDelegate.swift */; };
 		D570917D1E23B69300C9347B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57091761E23B69300C9347B /* Assets.xcassets */; };
@@ -19,16 +17,8 @@
 		D570919B1E23B91200C9347B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57091791E23B69300C9347B /* LaunchScreen.storyboard */; };
 		D570919C1E23B91200C9347B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57091761E23B69300C9347B /* Assets.xcassets */; };
 		D5892C7A1E2516AB00FFCF74 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C771E25169D00FFCF74 /* Tests.swift */; };
-		D5892C811E251D9000FFCF74 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C801E251D9000FFCF74 /* Configurable.swift */; };
-		D5892C831E251D9000FFCF74 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C801E251D9000FFCF74 /* Configurable.swift */; };
-		D5892C891E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */; };
-		D5892C8B1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */; };
-		D5892CA01E25283400FFCF74 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C9F1E25283400FFCF74 /* String+Extensions.swift */; };
-		D5892CA21E25283400FFCF74 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5892C9F1E25283400FFCF74 /* String+Extensions.swift */; };
 		D5B18E921E2568C80027E792 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E911E2568C80027E792 /* R.generated.swift */; };
 		D5B18E941E2568C80027E792 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E911E2568C80027E792 /* R.generated.swift */; };
-		D5B18E9C1E2570440027E792 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E9B1E2570440027E792 /* MainController.swift */; };
-		D5B18E9E1E2570440027E792 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B18E9B1E2570440027E792 /* MainController.swift */; };
 		D5B18EA81E2575700027E792 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5B18EAC1E2575700027E792 /* Localizable.strings */; };
 		D5B18EAA1E2575700027E792 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5B18EAC1E2575700027E792 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -55,7 +45,13 @@
 		9990E5F963EEFC471F2D862B /* Pods-SwiftProject Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject Tests/Pods-SwiftProject Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4E3F8E310D9652871FAB530 /* Pods_SwiftProject_Staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject_Staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4ADAC3BC6E9CFB29872B02A /* Pods-SwiftProject Pre-Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject Pre-Production.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject Pre-Production/Pods-SwiftProject Pre-Production.release.xcconfig"; sourceTree = "<group>"; };
-		D258F4D51E4088A70054F570 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BD4FCF992090F80700824386 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		BD4FCF9A2090F80800824386 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		BD4FCF9B2090F80800824386 /* UICollectionViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		BD4FCF9C2090F80800824386 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		BD4FCF9D2090F80800824386 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		BD4FCF9E2090F80800824386 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		BD4FCF9F2090F80800824386 /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
 		D258F4D71E4088A70054F570 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D57091761E23B69300C9347B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D57091781E23B69300C9347B /* Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Staging.plist"; sourceTree = "<group>"; };
@@ -65,11 +61,7 @@
 		D57091B41E23BA7D00C9347B /* Info-Production.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Production.plist"; sourceTree = "<group>"; };
 		D5892C751E25169D00FFCF74 /* Info-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests.plist"; sourceTree = "<group>"; };
 		D5892C771E25169D00FFCF74 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		D5892C801E251D9000FFCF74 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
-		D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MalibuConfigurator.swift; sourceTree = "<group>"; };
-		D5892C9F1E25283400FFCF74 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		D5B18E911E2568C80027E792 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
-		D5B18E9B1E2570440027E792 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		D5B18EA01E2574AE0027E792 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D5B18EAD1E2575840027E792 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D5C7F7401C3BC9CE008CDDBA /* SwiftProject Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProject Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,27 +111,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D258F4D41E4088A70054F570 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				D258F4D51E4088A70054F570 /* AppCoordinator.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
 		D258F4D61E4088A70054F570 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				D258F4D71E4088A70054F570 /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		D258F4D81E4088A70054F570 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Library;
 			sourceTree = "<group>";
 		};
 		D57091751E23B69300C9347B /* Resources */ = {
@@ -151,8 +128,7 @@
 				D57091771E23B69300C9347B /* Info */,
 				D5B18EAC1E2575700027E792 /* Localizable.strings */,
 			);
-			name = Resources;
-			path = SwiftProject/Resources;
+			path = Resources;
 			sourceTree = SOURCE_ROOT;
 		};
 		D57091771E23B69300C9347B /* Info */ = {
@@ -164,19 +140,14 @@
 			path = Info;
 			sourceTree = "<group>";
 		};
-		D570917A1E23B69300C9347B /* Sources */ = {
+		D570917A1E23B69300C9347B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D258F4D41E4088A70054F570 /* App */,
 				D258F4D61E4088A70054F570 /* AppDelegate */,
-				D258F4D81E4088A70054F570 /* Library */,
-				D5892C7B1E251D3F00FFCF74 /* Config */,
 				D5892C941E25215A00FFCF74 /* Constants */,
 				D5892C9E1E25282400FFCF74 /* Extensions */,
-				D5B18E951E256FF00027E792 /* Features */,
 			);
-			name = Sources;
-			path = SwiftProject/Sources;
+			path = Source;
 			sourceTree = SOURCE_ROOT;
 		};
 		D5892C721E25169D00FFCF74 /* SwiftProjectTests */ = {
@@ -212,15 +183,6 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		D5892C7B1E251D3F00FFCF74 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				D5892C801E251D9000FFCF74 /* Configurable.swift */,
-				D5892C881E251DDC00FFCF74 /* MalibuConfigurator.swift */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
 		D5892C941E25215A00FFCF74 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,25 +194,15 @@
 		D5892C9E1E25282400FFCF74 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D5892C9F1E25283400FFCF74 /* String+Extensions.swift */,
+				BD4FCF9F2090F80800824386 /* NSLayoutConstraint+Extensions.swift */,
+				BD4FCF9A2090F80800824386 /* UICollectionView+Extensions.swift */,
+				BD4FCF9B2090F80800824386 /* UICollectionViewCell+Extensions.swift */,
+				BD4FCF9C2090F80800824386 /* UIStackView+Extensions.swift */,
+				BD4FCF992090F80700824386 /* UITableView+Extensions.swift */,
+				BD4FCF9E2090F80800824386 /* UITableViewCell+Extensions.swift */,
+				BD4FCF9D2090F80800824386 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		D5B18E951E256FF00027E792 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				D5B18E9A1E25703B0027E792 /* Main */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		D5B18E9A1E25703B0027E792 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				D5B18E9B1E2570440027E792 /* MainController.swift */,
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		D5B18E9F1E2574AE0027E792 /* Fonts */ = {
@@ -264,6 +216,8 @@
 		D5C7F7371C3BC9CE008CDDBA = {
 			isa = PBXGroup;
 			children = (
+				D57091751E23B69300C9347B /* Resources */,
+				D570917A1E23B69300C9347B /* Source */,
 				D5C7F7421C3BC9CE008CDDBA /* SwiftProject */,
 				D5892C721E25169D00FFCF74 /* SwiftProjectTests */,
 				D5C7F7411C3BC9CE008CDDBA /* Products */,
@@ -285,8 +239,6 @@
 		D5C7F7421C3BC9CE008CDDBA /* SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
-				D57091751E23B69300C9347B /* Resources */,
-				D570917A1E23B69300C9347B /* Sources */,
 			);
 			path = SwiftProject;
 			sourceTree = "<group>";
@@ -679,12 +631,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5892CA21E25283400FFCF74 /* String+Extensions.swift in Sources */,
 				D258F4DF1E4088A70054F570 /* AppDelegate.swift in Sources */,
-				D5892C8B1E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
-				D258F4DC1E4088A70054F570 /* AppCoordinator.swift in Sources */,
-				D5B18E9E1E2570440027E792 /* MainController.swift in Sources */,
-				D5892C831E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E941E2568C80027E792 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -701,12 +648,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5892CA01E25283400FFCF74 /* String+Extensions.swift in Sources */,
 				D258F4DD1E4088A70054F570 /* AppDelegate.swift in Sources */,
-				D5892C891E251DDC00FFCF74 /* MalibuConfigurator.swift in Sources */,
-				D258F4DA1E4088A70054F570 /* AppCoordinator.swift in Sources */,
-				D5B18E9C1E2570440027E792 /* MainController.swift in Sources */,
-				D5892C811E251D9000FFCF74 /* Configurable.swift in Sources */,
 				D5B18E921E2568C80027E792 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -742,7 +684,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Production.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info/Info-Production.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BundleDomain.SwiftProject;
@@ -759,7 +701,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Production.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info/Info-Production.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BundleDomain.SwiftProject;
@@ -781,7 +723,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectTests/Resources/Info/Info-Tests.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftProject-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zenangst.SwiftProject-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProject Staging.app/SwiftProject Staging";
@@ -802,7 +744,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectTests/Resources/Info/Info-Tests.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftProject-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zenangst.SwiftProject-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProject Staging.app/SwiftProject Staging";
@@ -918,11 +860,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Staging.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info/Info-Staging.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-function-bodies=500 -DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftProject-Staging";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zenangst.SwiftProject-Staging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -936,11 +878,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				HEADERMAP_USES_VFS = YES;
-				INFOPLIST_FILE = "SwiftProject/Resources/Info/Info-Staging.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info/Info-Staging.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-function-bodies=500 -DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftProject-Staging";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zenangst.SwiftProject-Staging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
