@@ -62,9 +62,6 @@ File.rename('SwiftProject-README.md', 'README.md')
 FileUtils.rm('.gitignore')
 File.rename('SwiftProject.gitignore', '.gitignore')
 
-File.rename("SwiftProject", "#{project_name}")
-File.rename("SwiftProjectTests", "#{project_name}Tests")
-
 File.rename("SwiftProject.xcodeproj/xcshareddata/xcschemes/SwiftProject Staging.xcscheme",
   "SwiftProject.xcodeproj/xcshareddata/xcschemes/#{project_name} Staging.xcscheme")
 
